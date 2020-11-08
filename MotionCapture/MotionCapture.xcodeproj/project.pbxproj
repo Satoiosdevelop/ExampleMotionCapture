@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F3F7E32557857100BF3BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3F7E22557857100BF3BF3 /* AppDelegate.swift */; };
+		D0F3F7E52557857100BF3BF3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F3F7E42557857100BF3BF3 /* art.scnassets */; };
+		D0F3F7E72557857100BF3BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3F7E62557857100BF3BF3 /* ViewController.swift */; };
+		D0F3F7EA2557857100BF3BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F3F7E82557857100BF3BF3 /* Main.storyboard */; };
+		D0F3F7EC2557857200BF3BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F3F7EB2557857200BF3BF3 /* Assets.xcassets */; };
+		D0F3F7EF2557857200BF3BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F3F7ED2557857200BF3BF3 /* LaunchScreen.storyboard */; };
+		D0F3F7FA2557857300BF3BF3 /* MotionCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3F7F92557857300BF3BF3 /* MotionCaptureTests.swift */; };
+		D0F3F8052557857300BF3BF3 /* MotionCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3F8042557857300BF3BF3 /* MotionCaptureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F3F7F62557857300BF3BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F3F7D72557857100BF3BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F3F7DE2557857100BF3BF3;
+			remoteInfo = MotionCapture;
+		};
+		D0F3F8012557857300BF3BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F3F7D72557857100BF3BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F3F7DE2557857100BF3BF3;
+			remoteInfo = MotionCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F3F7DF2557857100BF3BF3 /* MotionCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F3F7E22557857100BF3BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0F3F7E42557857100BF3BF3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D0F3F7E62557857100BF3BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0F3F7E92557857100BF3BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F3F7EB2557857200BF3BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F3F7EE2557857200BF3BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F3F7F02557857200BF3BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F3F7F52557857300BF3BF3 /* MotionCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F3F7F92557857300BF3BF3 /* MotionCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionCaptureTests.swift; sourceTree = "<group>"; };
+		D0F3F7FB2557857300BF3BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F3F8002557857300BF3BF3 /* MotionCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F3F8042557857300BF3BF3 /* MotionCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionCaptureUITests.swift; sourceTree = "<group>"; };
+		D0F3F8062557857300BF3BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F3F7DC2557857100BF3BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7F22557857300BF3BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7FD2557857300BF3BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F3F7D62557857100BF3BF3 = {
+			isa = PBXGroup;
+			children = (
+				D0F3F7E12557857100BF3BF3 /* MotionCapture */,
+				D0F3F7F82557857300BF3BF3 /* MotionCaptureTests */,
+				D0F3F8032557857300BF3BF3 /* MotionCaptureUITests */,
+				D0F3F7E02557857100BF3BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F3F7E02557857100BF3BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3F7DF2557857100BF3BF3 /* MotionCapture.app */,
+				D0F3F7F52557857300BF3BF3 /* MotionCaptureTests.xctest */,
+				D0F3F8002557857300BF3BF3 /* MotionCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F3F7E12557857100BF3BF3 /* MotionCapture */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3F7E22557857100BF3BF3 /* AppDelegate.swift */,
+				D0F3F7E42557857100BF3BF3 /* art.scnassets */,
+				D0F3F7E62557857100BF3BF3 /* ViewController.swift */,
+				D0F3F7E82557857100BF3BF3 /* Main.storyboard */,
+				D0F3F7EB2557857200BF3BF3 /* Assets.xcassets */,
+				D0F3F7ED2557857200BF3BF3 /* LaunchScreen.storyboard */,
+				D0F3F7F02557857200BF3BF3 /* Info.plist */,
+			);
+			path = MotionCapture;
+			sourceTree = "<group>";
+		};
+		D0F3F7F82557857300BF3BF3 /* MotionCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3F7F92557857300BF3BF3 /* MotionCaptureTests.swift */,
+				D0F3F7FB2557857300BF3BF3 /* Info.plist */,
+			);
+			path = MotionCaptureTests;
+			sourceTree = "<group>";
+		};
+		D0F3F8032557857300BF3BF3 /* MotionCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3F8042557857300BF3BF3 /* MotionCaptureUITests.swift */,
+				D0F3F8062557857300BF3BF3 /* Info.plist */,
+			);
+			path = MotionCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F3F7DE2557857100BF3BF3 /* MotionCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F3F8092557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCapture" */;
+			buildPhases = (
+				D0F3F7DB2557857100BF3BF3 /* Sources */,
+				D0F3F7DC2557857100BF3BF3 /* Frameworks */,
+				D0F3F7DD2557857100BF3BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionCapture;
+			productName = MotionCapture;
+			productReference = D0F3F7DF2557857100BF3BF3 /* MotionCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F3F7F42557857300BF3BF3 /* MotionCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F3F80C2557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCaptureTests" */;
+			buildPhases = (
+				D0F3F7F12557857300BF3BF3 /* Sources */,
+				D0F3F7F22557857300BF3BF3 /* Frameworks */,
+				D0F3F7F32557857300BF3BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F3F7F72557857300BF3BF3 /* PBXTargetDependency */,
+			);
+			name = MotionCaptureTests;
+			productName = MotionCaptureTests;
+			productReference = D0F3F7F52557857300BF3BF3 /* MotionCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0F3F7FF2557857300BF3BF3 /* MotionCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F3F80F2557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCaptureUITests" */;
+			buildPhases = (
+				D0F3F7FC2557857300BF3BF3 /* Sources */,
+				D0F3F7FD2557857300BF3BF3 /* Frameworks */,
+				D0F3F7FE2557857300BF3BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F3F8022557857300BF3BF3 /* PBXTargetDependency */,
+			);
+			name = MotionCaptureUITests;
+			productName = MotionCaptureUITests;
+			productReference = D0F3F8002557857300BF3BF3 /* MotionCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F3F7D72557857100BF3BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D0F3F7DE2557857100BF3BF3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					D0F3F7F42557857300BF3BF3 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D0F3F7DE2557857100BF3BF3;
+					};
+					D0F3F7FF2557857300BF3BF3 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D0F3F7DE2557857100BF3BF3;
+					};
+				};
+			};
+			buildConfigurationList = D0F3F7DA2557857100BF3BF3 /* Build configuration list for PBXProject "MotionCapture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F3F7D62557857100BF3BF3;
+			productRefGroup = D0F3F7E02557857100BF3BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F3F7DE2557857100BF3BF3 /* MotionCapture */,
+				D0F3F7F42557857300BF3BF3 /* MotionCaptureTests */,
+				D0F3F7FF2557857300BF3BF3 /* MotionCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F3F7DD2557857100BF3BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F3F7E52557857100BF3BF3 /* art.scnassets in Resources */,
+				D0F3F7EF2557857200BF3BF3 /* LaunchScreen.storyboard in Resources */,
+				D0F3F7EC2557857200BF3BF3 /* Assets.xcassets in Resources */,
+				D0F3F7EA2557857100BF3BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7F32557857300BF3BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7FE2557857300BF3BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F3F7DB2557857100BF3BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F3F7E72557857100BF3BF3 /* ViewController.swift in Sources */,
+				D0F3F7E32557857100BF3BF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7F12557857300BF3BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F3F7FA2557857300BF3BF3 /* MotionCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F3F7FC2557857300BF3BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F3F8052557857300BF3BF3 /* MotionCaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F3F7F72557857300BF3BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F3F7DE2557857100BF3BF3 /* MotionCapture */;
+			targetProxy = D0F3F7F62557857300BF3BF3 /* PBXContainerItemProxy */;
+		};
+		D0F3F8022557857300BF3BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F3F7DE2557857100BF3BF3 /* MotionCapture */;
+			targetProxy = D0F3F8012557857300BF3BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F3F7E82557857100BF3BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F3F7E92557857100BF3BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F3F7ED2557857200BF3BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F3F7EE2557857200BF3BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F3F8072557857300BF3BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0F3F8082557857300BF3BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F3F80A2557857300BF3BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MotionCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example-ShinyaSato.MotionCapture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0F3F80B2557857300BF3BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MotionCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example-ShinyaSato.MotionCapture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0F3F80D2557857300BF3BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V9Q5P623R;
+				INFOPLIST_FILE = MotionCaptureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyasato.Example.MotionCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionCapture.app/MotionCapture";
+			};
+			name = Debug;
+		};
+		D0F3F80E2557857300BF3BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V9Q5P623R;
+				INFOPLIST_FILE = MotionCaptureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyasato.Example.MotionCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionCapture.app/MotionCapture";
+			};
+			name = Release;
+		};
+		D0F3F8102557857300BF3BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V9Q5P623R;
+				INFOPLIST_FILE = MotionCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyasato.Example.MotionCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotionCapture;
+			};
+			name = Debug;
+		};
+		D0F3F8112557857300BF3BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V9Q5P623R;
+				INFOPLIST_FILE = MotionCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinyasato.Example.MotionCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotionCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F3F7DA2557857100BF3BF3 /* Build configuration list for PBXProject "MotionCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F3F8072557857300BF3BF3 /* Debug */,
+				D0F3F8082557857300BF3BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F3F8092557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F3F80A2557857300BF3BF3 /* Debug */,
+				D0F3F80B2557857300BF3BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F3F80C2557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F3F80D2557857300BF3BF3 /* Debug */,
+				D0F3F80E2557857300BF3BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F3F80F2557857300BF3BF3 /* Build configuration list for PBXNativeTarget "MotionCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F3F8102557857300BF3BF3 /* Debug */,
+				D0F3F8112557857300BF3BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F3F7D72557857100BF3BF3 /* Project object */;
+}
